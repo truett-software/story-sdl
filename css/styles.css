@@ -1,7 +1,10 @@
-/***************************
-*   Font: Recursive Variable
-*   Recursive-VF.ttf
-*/
+/**
+ * ************************
+ *   Font: Recursive Variable
+ *   Recursive-VF.ttf
+ *
+ * @format
+ */
 
 @font-face {
   font-family: Recursive-2019;
@@ -71,7 +74,9 @@
   font-style: normal;
   font-weight: regular;
   font-display: optional;
-  src: local("Noto Sans"), local(NotoSans),
+  src:
+    local("Noto Sans"),
+    local(NotoSans),
     url(https://s3.amazonaws.com/benetta.net/fonts/noto-sans/noto-sans-v11-latin-regular.woff2)
       format("woff2");
 }
@@ -152,8 +157,11 @@
 *,
 *:before,
 *:after {
-  font-variation-settings: "MONO" var(--MONO), "CASL" var(--CASL),
-    "slnt" var(--slnt), "CRSV" var(--CRSV);
+  font-variation-settings:
+    "MONO" var(--MONO),
+    "CASL" var(--CASL),
+    "slnt" var(--slnt),
+    "CRSV" var(--CRSV);
 }
 
 h1 {
@@ -189,7 +197,10 @@ h4 {
   --CASL: 1;
   --slnt: 0;
   --MONO: 0;
-  font-feature-settings: "ss01" on, "ss02" on, "ss08" on;
+  font-feature-settings:
+    "ss01" on,
+    "ss02" on,
+    "ss08" on;
   margin-top: 1em;
   color: #ffffff;
   border: none;
@@ -209,7 +220,10 @@ h5 {
   --CASL: 1;
   --slnt: 0;
   --MONO: 0;
-  font-feature-settings: "ss01" on, "ss02" on, "ss08" on;
+  font-feature-settings:
+    "ss01" on,
+    "ss02" on,
+    "ss08" on;
   margin-bottom: 0.8em;
   color: #ffffff;
   border: none;
@@ -289,12 +303,18 @@ h5:hover {
 }
 
 .paper {
-  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1.5px 0.5px -1px rgba(0, 0, 0, 0.2), 0 0 2.5px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1.5px 0.5px -1px rgba(0, 0, 0, 0.2), 0 0 2.5px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-    0 1.5px 0.5px -1px rgba(0, 0, 0, 0.2), 0 0 2.5px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1.5px 0.5px -1px rgba(0, 0, 0, 0.2),
+    0 0 2.5px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1.5px 0.5px -1px rgba(0, 0, 0, 0.2),
+    0 0 2.5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow:
+    0 1px 1px 0 rgba(0, 0, 0, 0.14),
+    0 1.5px 0.5px -1px rgba(0, 0, 0, 0.2),
+    0 0 2.5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .pb {
